@@ -1,0 +1,5 @@
+module CalculatorApp{
+    interface Calculator{
+        string calcMonthlyFee (in double purchase, in double MonthlyFee);
+    };
+};
